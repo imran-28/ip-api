@@ -1,4 +1,10 @@
 import requests
+"""
+api_url = ip api url
+get_api = access url from requests module
+get_json = get data from url
+get_ip = get ip
+"""
 api_url = 'https://api.ipify.org?format=json'
 get_api = requests.get(api_url)
 get_json = get_api.json()
